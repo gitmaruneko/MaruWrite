@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Jekyll 或是 Hexo?",
+      "category" : "Learning",
+      "tags"     : "Web and learning",
+      "url"      : "/jekyllOrHexso/",
+      "date"     : "07 Jan 2017"
+    } ,
+  
+    {
       "title"    : "2017 好的開始",
       "category" : "Fitness",
       "tags"     : "Fitness",
@@ -10,8 +18,8 @@
   
     {
       "title"    : "Testing Page",
-      "category" : "Fitness",
-      "tags"     : "Fitness",
+      "category" : "Other",
+      "tags"     : "Other",
       "url"      : "/testPage/",
       "date"     : "06 Jan 2017"
     } 

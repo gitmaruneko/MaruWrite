@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://localhost:4000/aGoodStart/</loc>
+		<loc>/jekyllOrHexso/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:4000/testPage/</loc>
+		<loc>/aGoodStart/</loc>
+	  </url>
+	
+	  <url>
+		<loc>/testPage/</loc>
 	  </url>
 	
 </urlset>

@@ -3,15 +3,54 @@
   <channel>
     <title>藉紙抒</title>
     <description>一個工程師的murmur</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Jan 2017 21:37:02 +0800</pubDate>
-    <lastBuildDate>Sat, 07 Jan 2017 21:37:02 +0800</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 07 Jan 2017 22:25:10 +0800</pubDate>
+    <lastBuildDate>Sat, 07 Jan 2017 22:25:10 +0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
+        <title>Jekyll 或是 Hexo?</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://blog.giacomocerquone.com/jekyll-vs-hexo/jekyll-vs-hexo.jpg&quot; width=&quot;400&quot; height=&quot;267&quot; alt=&quot;該挑哪一個呢?&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;網頁世界無邊無際&quot;&gt;&lt;strong&gt;網頁世界無邊無際&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;繼昨天套完&lt;strong&gt;Jekyll&lt;/strong&gt;, 今天同樣也花費了幾個小時玩一下&lt;strong&gt;HEXO&lt;/strong&gt;做個比較&lt;/p&gt;
+
+&lt;p&gt;剛開始用HEXO時, 對於此框架規劃的便利性感到驚奇&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;替換Theme方便&lt;/strong&gt;      (直接git clone theme後在config修改即可),&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deploy到GIT也方便&lt;/strong&gt;  (在config設定好git帳號, 即可使用hexo d直接佈署)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;相較之下 &lt;strong&gt;Jekyll&lt;/strong&gt;在這兩個部分做就沒那麼直覺&lt;br /&gt;
+ (自動deploy要設定hook, 小麻煩)&lt;/p&gt;
+
+&lt;p&gt;不過最後選擇了使用&lt;strong&gt;Jekyll&lt;/strong&gt;,&lt;br /&gt;
+原因是因為想把內容直接放在GIT上, &lt;br /&gt;方便多部裝置隨時可編寫Blog&lt;br /&gt; 
+畢竟我不會常替換Theme, 但卻常在多部裝置切換 XD&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;以後寫BLOG放心多了, 雖然同樣是依賴第三方服務&lt;br /&gt;
+但至少依賴性有降低一點 XD &lt;br /&gt;
+而且可以使用markdown語法, 親切性整個提升&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 07 Jan 2017 21:53:00 +0800</pubDate>
+        <link>/jekyllOrHexso/</link>
+        <guid isPermaLink="true">/jekyllOrHexso/</guid>
+        
+        <category>Web</category>
+        
+        <category>learning</category>
+        
+        
+        <category>Learning</category>
+        
+      </item>
+    
+      <item>
         <title>2017 好的開始</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/xj5qjJHVxQbPZ6ssxe5HC581wqofeklKLcvL0ecceL6lxibgtGfjjxiCNGrV82q8ZAtPJba8zjb-XgE=w2022-h1090-rw&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/IZ1h75q4cbBzIFO5TZQ8KKfkw_s8x0pMQvTrAJUTZW3Ts5tZp00KIdK9HhzPekbEIGAqkk5zFP5Y0i4=w2022-h1164-rw&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01/06  五  天氣晴
 
@@ -32,8 +71,8 @@
 
 </description>
         <pubDate>Sat, 07 Jan 2017 18:06:00 +0800</pubDate>
-        <link>http://localhost:4000/aGoodStart/</link>
-        <guid isPermaLink="true">http://localhost:4000/aGoodStart/</guid>
+        <link>/aGoodStart/</link>
+        <guid isPermaLink="true">/aGoodStart/</guid>
         
         <category>Fitness</category>
         
@@ -44,15 +83,21 @@
     
       <item>
         <title>Testing Page</title>
-        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/sharding-gerenciamento-usuarios/ajudando-carregar.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;github--why-&quot;&gt;Github ? why ?&lt;/h2&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas, esse laudantium quis ipsa consequuntur iure atque! Necessitatibus quam quidem illum, corrupti molestiae, maxime neque, consequuntur quia alias, modi commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem ducimus dolores repellat itaque perferendis corporis ex dicta doloremque optio harum excepturi, ut, praesentium asperiores! Voluptatum amet perspiciatis iusto, fugiat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, libero quia placeat necessitatibus culpa mollitia, illum, quam sed ratione ad eaque suscipit consectetur itaque quasi aperiam. Quaerat, nihil...</description>
+        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-marus-testing-page&quot;&gt;This is Maru’s Testing page&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://drive.google.com/file/d/0Bwyp2ujMGnfiYXBqbWFic1dvM1U/view?usp=sharing&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+</description>
         <pubDate>Fri, 06 Jan 2017 18:06:00 +0800</pubDate>
-        <link>http://localhost:4000/testPage/</link>
-        <guid isPermaLink="true">http://localhost:4000/testPage/</guid>
+        <link>/testPage/</link>
+        <guid isPermaLink="true">/testPage/</guid>
         
-        <category>Fitness</category>
+        <category>Other</category>
         
         
-        <category>Fitness</category>
+        <category>Other</category>
         
       </item>
     
