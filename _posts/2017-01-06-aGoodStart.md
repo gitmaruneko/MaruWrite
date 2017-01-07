@@ -10,7 +10,7 @@ categories:
 - Fitness
 serie: learn
 ---
-<img src="https://lh3.googleusercontent.com/xj5qjJHVxQbPZ6ssxe5HC581wqofeklKLcvL0ecceL6lxibgtGfjjxiCNGrV82q8ZAtPJba8zjb-XgE=w2022-h1090-rw" alt="">
+<img src="https://lh6.googleusercontent.com/IZ1h75q4cbBzIFO5TZQ8KKfkw_s8x0pMQvTrAJUTZW3Ts5tZp00KIdK9HhzPekbEIGAqkk5zFP5Y0i4=w2022-h1164-rw" alt="">
 
 ```
 01/06  五  天氣晴
