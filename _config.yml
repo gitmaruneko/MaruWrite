@@ -1,0 +1,44 @@
+# Site settings
+title: 藉紙抒
+description: "一個工程師的murmur"
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+
+# User settings
+username: Maru
+user_title: Firmware Engineer
+email: workAgile@outlook.com
+github_username:  gitmaruneko
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: junitPractice
+    url: https://github.com/gitmaruneko/junitPractice
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+

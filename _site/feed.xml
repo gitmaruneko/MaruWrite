@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>藉紙抒</title>
+    <description>一個工程師的murmur</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 07 Jan 2017 21:37:02 +0800</pubDate>
+    <lastBuildDate>Sat, 07 Jan 2017 21:37:02 +0800</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>2017 好的開始</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://lh3.googleusercontent.com/xj5qjJHVxQbPZ6ssxe5HC581wqofeklKLcvL0ecceL6lxibgtGfjjxiCNGrV82q8ZAtPJba8zjb-XgE=w2022-h1090-rw&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;01/06  五  天氣晴
+
+腳踏車機 30 min
+
+手部重訓 兩種 各15下
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;塑身第一天, 發現了很棒的餐店&lt;/p&gt;
+
+&lt;p&gt;[&lt;strong&gt;山藥養生粥&lt;/strong&gt;] $40 山藥, 香菇, 胡蘿蔔, 穀類, 肉鬆&lt;/p&gt;
+
+&lt;p&gt;[&lt;strong&gt;牛肉生菜沙拉&lt;/strong&gt;] $75&lt;/p&gt;
+
+&lt;p&gt;早餐吃粥, 中午運動完補充生菜沙拉&lt;/p&gt;
+
+&lt;p&gt;價格實惠&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 07 Jan 2017 18:06:00 +0800</pubDate>
+        <link>http://localhost:4000/aGoodStart/</link>
+        <guid isPermaLink="true">http://localhost:4000/aGoodStart/</guid>
+        
+        <category>Fitness</category>
+        
+        
+        <category>Fitness</category>
+        
+      </item>
+    
+      <item>
+        <title>Testing Page</title>
+        <description>&lt;p class=&quot;music-read&quot;&gt;&lt;a href=&quot;spotify:track:4DAZ8UYNpWVIV46aLkN2Qp&quot;&gt;Music for reading(spotify)&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/sharding-gerenciamento-usuarios/ajudando-carregar.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt; &lt;h2 id=&quot;github--why-&quot;&gt;Github ? why ?&lt;/h2&gt; &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste quas, esse laudantium quis ipsa consequuntur iure atque! Necessitatibus quam quidem illum, corrupti molestiae, maxime neque, consequuntur quia alias, modi commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem ducimus dolores repellat itaque perferendis corporis ex dicta doloremque optio harum excepturi, ut, praesentium asperiores! Voluptatum amet perspiciatis iusto, fugiat!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, libero quia placeat necessitatibus culpa mollitia, illum, quam sed ratione ad eaque suscipit consectetur itaque quasi aperiam. Quaerat, nihil...</description>
+        <pubDate>Fri, 06 Jan 2017 18:06:00 +0800</pubDate>
+        <link>http://localhost:4000/testPage/</link>
+        <guid isPermaLink="true">http://localhost:4000/testPage/</guid>
+        
+        <category>Fitness</category>
+        
+        
+        <category>Fitness</category>
+        
+      </item>
+    
+  </channel>
+</rss>
