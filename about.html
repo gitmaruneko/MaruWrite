@@ -5,14 +5,14 @@ permalink: /about/index.html
 description: "Some description about Victor Igor..."
 ---
 
-<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/profile.jpg" alt="Victor Igor">
+<img itemprop="image" class="img-rounded about_perfil" src="https://s-media-cache-ak0.pinimg.com/564x/9d/4d/31/9d4d314ec7722d05541111a180e4e54b.jpg" alt="My profile">
 
 <h2>My projects</h2>
 
 <div class="aboutme">
 	<ul class="recent">
 		{% for project in site.projects %}
-	    	<li><a href="{{ project.url}}"><h2 class="post-title" itemprop="name">{{ project.name }}</h2></a></li>
+	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
 	    {% endfor %}
 	</ul>
 </div>

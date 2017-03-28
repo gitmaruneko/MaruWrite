@@ -1,6 +1,6 @@
 # Site settings
-title: 藉紙抒
-description: "一個工程師的murmur"
+title: MaruNeko
+description: "murmur"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
 
 # User settings
@@ -8,6 +8,7 @@ username: Maru
 user_title: Firmware Engineer
 email: workAgile@outlook.com
 github_username:  gitmaruneko
+disqus_username: agilemaru
 
 # Build settings
 markdown: kramdown
