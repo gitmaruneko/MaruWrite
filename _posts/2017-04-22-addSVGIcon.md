@@ -18,7 +18,7 @@ serie:
 	<img src="{{"/assets/img/maruIMG/0422/Tumblr.png"}}">
 </figure>
 
-昨天比較了一下個社交平台, 發現 [**Tumblr**](https://www.tumblr.com/) 是個很棒的地方<br />
+昨天比較了一下各個社交平台, 發現 [**Tumblr**](https://www.tumblr.com/) 是個很棒的地方<br />
 除了有類似**Instagram**那種追蹤方式以外<br />
 他將貼文分成很多類, 每種類有不同的顯示方式<br />
 在使用者體驗上真的很貼心<br />
@@ -42,7 +42,7 @@ serie:
 <figure class="foto-legenda">
 	<img src="{{"/assets/img/maruIMG/0422/00-1.png"}}"  width="640" height="400" style="border:3px #5d4d7a dashed;">
 </figure>
-2.點選上方的Preference匯出設定<br />
+2.點選上方的Preference做匯出設定<br />
 <figure class="foto-legenda">
 	<img src="{{"/assets/img/maruIMG/0422/00-2.png"}}"  width="400" height="200" style="border:3px #5d4d7a dashed;">
 </figure>
@@ -57,7 +57,7 @@ serie:
 	<img src="{{"/assets/img/maruIMG/0422/02.png"}}"  width="500" height="350" style="border:3px #5d4d7a dashed;">
 </figure>
 
-點選後會跳出一個程式碼視窗, 再針對需求複製內容到你的HTML內
+就會跳出一個程式碼視窗, 讓你針對需求選擇
 <figure class="foto-legenda">
 	<img src="{{"/assets/img/maruIMG/0422/03.png"}}"  width="400" height="300" style="border:3px #5d4d7a dashed;">
 </figure>
