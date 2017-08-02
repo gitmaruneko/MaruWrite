@@ -59,8 +59,8 @@
           $('#fade').trigger('click');
           $("#search").trigger('click');
           break;
-         case "t":
-          $("#sidebar ul:nth-child(2) li:nth-child(3) a").trigger('click');
+        case "f":
+          $("#sidebar ul:nth-child(2) li:first-child a").trigger('click');
           break;
       }
     }
