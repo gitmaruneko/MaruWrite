@@ -37,8 +37,11 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: junitPractice
+  - name: practice_C
+    url: https://github.com/gitmaruneko/practice_C
+  - name: junitPractice(Test)
     url: https://github.com/gitmaruneko/junitPractice
+
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
