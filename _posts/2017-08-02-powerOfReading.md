@@ -4,11 +4,11 @@ title:  "讀書力"
 image: ''
 date: 2017-08-02 11:55
 tags:
-- reading
+- read
 - book
 description: ''
 categories:
-- Reading
+- READ
 serie: 
 ---
 

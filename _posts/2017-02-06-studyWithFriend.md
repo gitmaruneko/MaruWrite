@@ -4,10 +4,11 @@ title:  "按圖施工也不保證成功"
 image: ''
 date: 2017-02-06 17:05
 tags:
-- study
+- jekyll
+- blog
 description: ''
 categories:
-- Study
+- OTHER
 serie: redaing
 ---
 

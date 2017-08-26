@@ -7,10 +7,10 @@ tags:
 - SVG
 - icon
 - SVG sprite
+- web
 description: ''
 categories:
-- learning
-- web
+- LEARN
 serie: 
 ---
 

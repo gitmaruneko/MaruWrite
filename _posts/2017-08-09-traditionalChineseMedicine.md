@@ -4,11 +4,11 @@ title:  "跟著太爺學中醫"
 image: ''
 date: 2017-08-09 15:50
 tags:
-- reading
+- read
 - book
 description: ''
 categories:
-- Reading
+- READ
 serie: 
 ---
 

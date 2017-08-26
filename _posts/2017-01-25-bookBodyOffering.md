@@ -5,10 +5,10 @@ image: ''
 date: 2017-01-25 17:05
 tags:
 - philosophy
-- reading
+- read
 description: ''
 categories:
-- Reading
+- READ
 serie: redaing
 ---
 
