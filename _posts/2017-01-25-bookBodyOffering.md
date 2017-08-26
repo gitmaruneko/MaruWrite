@@ -6,6 +6,7 @@ date: 2017-01-25 17:05
 tags:
 - philosophy
 - read
+- book
 description: ''
 categories:
 - READ

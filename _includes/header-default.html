@@ -28,7 +28,7 @@
              {% for post in site.posts limit:5%}
                 <li>
                     <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">[{{ post.categories }}] {{ post.title }}</h2>
+                        <h2 class="post-title" itemprop="name"><font size="2">[{{post.categories}}]</font> {{ post.title }}</h2>
                     </a>
                 </li>
               {% endfor %}
