@@ -4,11 +4,11 @@ title:  "Jekyll 或是 Hexo?"
 image: ''
 date: 2017-01-07 21:53
 tags:
-- Web
-- learning
+- web
+- learn
 description: ''
 categories:
-- Learning
+- LEARN
 serie: learn
 ---
 <img src="http://blog.giacomocerquone.com/jekyll-vs-hexo/jekyll-vs-hexo.jpg" width="400" height="267" alt="該挑哪一個呢?">

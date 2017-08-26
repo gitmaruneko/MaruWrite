@@ -4,10 +4,10 @@ title:  "2017 好的開始"
 image: ''
 date: 2017-01-07 18:06
 tags:
-- Fitness
+- fiteness
 description: ''
 categories:
-- Fitness
+- FITNESS
 serie: learn
 ---
 <img src="http://i.imgur.com/IDlUfZL.jpg" alt="">
