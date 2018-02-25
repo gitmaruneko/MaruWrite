@@ -151,9 +151,9 @@ Pipeline script示意圖 :
 一為測試工程師將EXCEL表存放於本地端, 一為Email內的附件  
 沒有一個統一管理的地方, 當要調閱某次的測試結果都得撈很久  
 
-所以就目前的狀況, 採用了 txt file 轉 XML file的處理方式  
-XML file可以用HTML套用CCS樣式呈現於網頁, 也能轉為EXCEL表寄出  
-當測試結束後, 便會自動運行 TXT > XML  > HTML的工作
+所以就目前的狀況, 採用了 TXT 轉 XML 的處理方式  
+XML 可以轉為HTML套用CCS樣式呈現於網頁, 也能轉為EXCEL表寄出  
+當測試結束後, 便會自動運行 TXT > XML  > HTML的工作  
 然後將HTML嵌入EMail直接寄給團隊, 完全省略人工處理  
 
 HTML所呈現的測試結果 : 
