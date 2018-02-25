@@ -9,7 +9,7 @@ tags:
 - Automation
 description: ''
 categories:
-- work
+- WORK
 serie: 
 ---
 
