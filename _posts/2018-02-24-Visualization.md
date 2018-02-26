@@ -137,9 +137,7 @@ Pipeline script示意圖 :
 <figure class="foto-legenda">
 	<img src="{{ "/assets/img/maruIMG/20180824/08_02.jpg"}}" width="384" height="302" alt="" >
 </figure>
-<figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/08_01.jpg"}}" width="649" height="223" alt="" >
-</figure>
+
 
 ### 測試結果報表可視化
 解決完前述運行測試過程的相關工作, 來到最後一步  
