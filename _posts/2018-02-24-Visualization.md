@@ -34,12 +34,12 @@ serie:
 目前的測試結果是用文字檔的方式呈現, 如下圖A :  
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/00_01.jpg"}}" width="656" height="263" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180224/00_01.jpg"}}" width="656" height="263" alt="">
 </figure>
 
 再看看另一張圖B : 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/00_02.jpg"}}" width="658" height="262" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/00_02.jpg"}}" width="658" height="262" alt="" >
 </figure>
 
 有發現到問題嗎?
@@ -63,7 +63,7 @@ serie:
 #### 設定 : 
 * 首先設定要偵測的關鍵字, 例如 : 測項內有 **FAIL**字眼, 便判定結果為error
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/00.jpg"}}" width="485" height="186" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/00.jpg"}}" width="485" height="186" alt="" >
 </figure>  
 * 然後打開 Jenkins任務, 設定前述關鍵字檔案的存放位置,  
 可以設定公用規則也可依個別專案設定規則, 以下兩個選項建議勾選 :  
@@ -73,23 +73,23 @@ serie:
 　　　(在此可得知這次測項結果走勢)
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/01.jpg"}}" width="1016" height="346" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/01.jpg"}}" width="1016" height="346" alt="" >
 </figure>
 測項結果走勢示意圖 : 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/02.jpg"}}" width="560" height="243" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/02.jpg"}}" width="560" height="243" alt="" >
 </figure>
 
 設定後, 運行測試看看使用成果, 發現FAIL測項果然被高亮了,  
 而且任務如預期被判定為**失敗**
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/03.jpg"}}" width="1144" height="484" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/03.jpg"}}" width="1144" height="484" alt="" >
 </figure>
 
 現在自動化測試的運行行為已經正常了, 但這樣仍然不夠,  
 因為若有測項失敗, 工程師仍得花一些時間檢查LOG釐清原因,  示意圖
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/03_1.jpg"}}" width="592" height="104" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/03_1.jpg"}}" width="592" height="104" alt="" >
 </figure>
 如果可以一眼就看到失敗原因, 想必會省下不少時間!  
 這時可以搭配 [**Build Failure Analyzer Plugin**](https://plugins.jenkins.io/build-failure-analyzer)  
@@ -101,26 +101,26 @@ serie:
 * 安裝套件後, 於Jenkins主頁面點選 **Failure Cause Management**  
 * 在這個頁面可以看到所有設定為Failure Cause的選項, 點選 **Create New**
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/04.jpg"}}" width="718" height="311" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/04.jpg"}}" width="718" height="311" alt="" >
 </figure>
 * 設定此Failure的名稱 > 輸入所要偵測的關鍵字串, (將字串以**.\***包起來)  
 例如 : **.\*偵測字串.\***  
 下圖為例, **Error: Unable to send alert signal**字串即為導致測試失敗的原因
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/03_1.jpg"}}" width="592" height="104" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/03_1.jpg"}}" width="592" height="104" alt="" >
 </figure>
 所以輸入如下 : 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/05.jpg"}}" width="350" height="805" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/05.jpg"}}" width="350" height="805" alt="" >
 </figure>
 做完設定後, **若運行任務失敗**便會主動進行Failure Cause偵測,  
 現在再次運行測試, 發現任務建置頁面出現了Identified problems告知失敗原因
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/06.jpg"}}" width="800" height="303" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/06.jpg"}}" width="800" height="303" alt="" >
 </figure>
 點選**Indication 1**檢視失敗原因, LOG被高亮了!  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/07.jpg"}}" width="732" height="158" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/07.jpg"}}" width="732" height="158" alt="" >
 </figure>
 
 ## 可視化工作
@@ -131,11 +131,11 @@ serie:
 成功失敗會直接以**<font color="red">紅</font><font color="green">綠</font>**顏色呈現  
 在圖上也能看到每個測項所花費的時間, 還有平均時間, 整體來說方便很多  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/08.jpg"}}" width="1188" height="302" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/08.jpg"}}" width="1188" height="302" alt="" >
 </figure>
 Pipeline script示意圖 :
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/08_02.jpg"}}" width="384" height="302" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/08_02.jpg"}}" width="384" height="302" alt="" >
 </figure>
 
 
@@ -156,24 +156,24 @@ XML 可以轉為HTML套用CCS樣式呈現於網頁, 也能轉為EXCEL表寄出
 
 HTML所呈現的測試結果 : 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/09.jpg"}}" width="921" height="193" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/09.jpg"}}" width="921" height="193" alt="" >
 </figure>
 
 也可發布於建置頁面 (採用[**HTML Publisher Plugin**](https://plugins.jenkins.io/htmlpublisher))
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/10.jpg"}}" width="589" height="628" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/10.jpg"}}" width="589" height="628" alt="" >
 </figure>
 
 #### 設定 
 * 設定所要發布的HTML檔案路徑
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/12.jpg"}}" width="1010" height="534" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/12.jpg"}}" width="1010" height="534" alt="" >
 </figure>
 
 * 若要嵌入Email一同寄出, 需要將Conten Type調為HTML格式  
   並且於Content內指定File path變數名稱
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180824/11.jpg"}}" width="692" height="393" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20180224/11.jpg"}}" width="692" height="393" alt="" >
 </figure>
 
 採用上述方式, 是我目前能想到較為方便的做法  
