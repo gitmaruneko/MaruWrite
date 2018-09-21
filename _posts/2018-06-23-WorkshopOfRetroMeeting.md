@@ -3,18 +3,15 @@ layout: post
 title:  "敏捷回顧會議工作坊"
 image: ''
 date: 2018-06-24 09:50
+cover: '/assets/img/maruIMG/20180623/02.jpg'
 tags:
-- agile
-- retrospective
-- scrum
+- Agile
+- Scrum
 description: ''
-categories:
-- LEARN
+categories: ''
 serie: 
 ---
-<figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180623/02.jpg"}}" width="50%" height="50%" alt="">
-</figure>
+
 
 六月23日這天, [**Erica**](http://designerica.cc/)帶領大家在開往敏捷的船上裝載了滿滿的資源  
 從開場的Check-in活動一直到結尾的RETRO meeting設計  
@@ -65,7 +62,7 @@ serie:
 [**Erica**](http://designerica.cc/)介紹了團隊成型的幾個階段, 並且讓學員寫下每個階段間可能歷經的過程,  
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180623/01.jpg"}}" width="60%" height="60%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180623/01.jpg"}}">
 </figure>
 
 由圖中來審視過去所處的團隊做得好以及需要補足的地方,  
@@ -89,7 +86,7 @@ serie:
 我挑了一個Lean coffee的範例,  
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180623/05.jpg"}}" width="60%" height="60%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180623/05.jpg"}}">
 </figure>
 
 簡單說明 : 
@@ -106,7 +103,7 @@ serie:
 [**Erica**](http://designerica.cc/)不單介紹工具和框架給學員,  對於其應用背後的精神也講解得非常透徹,  
 其中有個令我印象深刻的環節 : 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180623/03.jpg"}}" width="60%" height="60%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180623/03.jpg"}}">
 </figure>
 
 在這個活動裡, 每組分為四個角色各自如圖中ABCD的職責,  

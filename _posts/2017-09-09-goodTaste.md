@@ -4,15 +4,14 @@ title:  "品味, 從知識開始"
 image: ''
 date: 2017-09-09 17:30
 tags:
-- book
+- Reading
 description: ''
-categories:
-- READ
-serie: 
+categories: ''
+serie: ''
 ---
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0903.jpg"}}" width="380" height="500" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0903.jpg"}}" alt="" >
 </figure>
 
 **OS** : 軟體工程師培養這方面的能力是否挺怪?  XD  

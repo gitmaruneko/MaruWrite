@@ -4,12 +4,10 @@ title:  "一日體驗-勇氣即興劇場工作坊"
 image: ''
 date: 2017-08-24 23:50
 tags:
-- brave
-- improvisational theatre
+- Life
 description: ''
-categories:
-- LIFE
-serie: 
+categories: ''
+serie: ''
 ---
 
 <br /><br />

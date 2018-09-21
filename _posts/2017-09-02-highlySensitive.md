@@ -4,12 +4,10 @@ title:  "高敏感是種天賦"
 image: ''
 date: 2017-09-01 23:50
 tags:
-- book
-- read
+- Reading
 description: ''
-categories:
-- READ
-serie: 
+categories: ''
+serie: ''
 ---
 
 <br />

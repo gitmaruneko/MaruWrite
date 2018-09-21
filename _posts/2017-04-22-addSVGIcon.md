@@ -4,14 +4,11 @@ title:  "網頁顯示icon的方式 - svg sprite"
 image: ''
 date: 2017-04-22 14:30
 tags:
-- SVG
-- icon
-- SVG sprite
-- web
+- WEB
+- Programming
 description: ''
-categories:
-- LEARN
-serie: 
+categories: ''
+serie: ''
 ---
 
 <figure class="foto-legenda">
@@ -40,26 +37,26 @@ serie:
 
 1.選擇好想要的圖檔後, 點選下方的**Generate SVG & More**<br />
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/00-1.png"}}"  width="640" height="400" style="border:3px #5d4d7a dashed;">
+	<img src="{{"/assets/img/maruIMG/0422/00-1.png"}}" style="border:3px #5d4d7a dashed;">
 </figure>
 2.點選上方的Preference做匯出設定<br />
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/00-2.png"}}"  width="400" height="200" style="border:3px #5d4d7a dashed;">
+	<img src="{{"/assets/img/maruIMG/0422/00-2.png"}}"  style="border:3px #5d4d7a dashed;">
 </figure>
 
 3.再點選下方**Download**後, 就能得到一包含PNG和轉化為編碼的檔案<br />
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/03-1.png"}}"  width="270" height="70" style="border:3px #5d4d7a dashed;">
+	<img src="{{"/assets/img/maruIMG/0422/03-1.png"}}" style="border:3px #5d4d7a dashed;">
 </figure>
 
 4.或者若你不想匯出想直接使用, 可以直接在圖標處點選**<>Get Code**<br />
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/02.png"}}"  width="500" height="350" style="border:3px #5d4d7a dashed;">
+	<img src="{{"/assets/img/maruIMG/0422/02.png"}}"  style="border:3px #5d4d7a dashed;">
 </figure>
 
 就會跳出一個程式碼視窗, 讓你針對需求選擇
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/03.png"}}"  width="400" height="300" style="border:3px #5d4d7a dashed;">
+	<img src="{{"/assets/img/maruIMG/0422/03.png"}}" style="border:3px #5d4d7a dashed;">
 </figure>
 ---
 * 轉化後的編碼大約長這樣
@@ -89,7 +86,7 @@ serie:
 等同上方提到的容器檔案<br />
 裡面也會有匯出圖檔的對應id : <br />
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/05.png"}}"  width="640" height="450">
+	<img src="{{"/assets/img/maruIMG/0422/05.png"}}">
 </figure>
 使用時在HTML設定此svg file, 再呼叫對應的圖標id就可以了<br />
 呼叫範例如下 : <br />
@@ -102,7 +99,7 @@ serie:
 ### Share功能就做好啦~~~ 
 (當然還要設定點擊後的對應行為啦, 不是只加圖標就好)
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/0422/04.png"}}"  width="400" height="150" style="border:3px #5d4d7a dashed;">
+	<img src="{{"/assets/img/maruIMG/0422/04.png"}}" style="border:3px #5d4d7a dashed;">
 </figure>
 
 

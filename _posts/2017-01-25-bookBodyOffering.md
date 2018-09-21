@@ -4,13 +4,12 @@ title:  "肉身供養"
 image: ''
 date: 2017-01-25 17:05
 tags:
-- philosophy
-- read
-- book
+- Philosophy
+- Reading
 description: ''
-categories:
-- READ
-serie: redaing
+categories: ''
+serie: ''
+cover: 'http://i.imgur.com/MJQnxRA.jpg'
 ---
 
 拜讀完蔣勳先生的 **肉身供養** 一書<br />

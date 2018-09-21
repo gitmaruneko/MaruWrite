@@ -4,16 +4,14 @@ title:  "讀書力"
 image: ''
 date: 2017-08-02 11:55
 tags:
-- read
-- book
+- Reading
 description: ''
-categories:
-- READ
-serie: 
+categories: ''
+serie: ''
 ---
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0801.jpg"}}" width="480" height="530" alt="">
+	<img src="{{ "/assets/img/maruIMG/0801.jpg"}}" alt="">
 </figure>
 
 ## **讀書力**<br />

@@ -4,14 +4,11 @@ title:  "Graduation"
 image: ''
 date: 2017-09-25 23:50
 tags:
-- brave
-- learn
-- school
-- graduation
+- Life
 description: ''
-categories:
-- LIFE
-serie: 
+categories: ''
+serie: ''
+cover: '/assets/img/maruIMG/0926/00.jpg'
 ---
 
 ```

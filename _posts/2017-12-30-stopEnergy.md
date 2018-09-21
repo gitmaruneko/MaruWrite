@@ -4,13 +4,13 @@ title:  "Stop Energy"
 image: ''
 date: 2017-12-30 11:50
 tags:
-- stop energy
-- Test
-- Automation
+- Testing
+- CI
+- Work
 description: ''
-categories:
-- WORK
-serie: 
+categories: ''
+serie: ''
+cover: '/assets/img/maruIMG/20171230/03.jpg'
 ---
 
 研究所畢業回歸業界, 以菜鳥之姿進入**伺服器**領域  
@@ -34,7 +34,7 @@ serie:
 
 他們每周都要做6次以上如下圖般的流程 :
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20171230/00.png"}}" width="1000" height="470" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20171230/00.png"}}">
 </figure>
 
 1. developer release 待測產出 (Copy image至File center)
@@ -62,7 +62,7 @@ serie:
 與上圖對比, 由圖中可得知許多原本綁定在人身上的任務都可以交由Jenkins來完成  
 (是不是很棒呢! 這樣就有更多時間做別的事啦! (誤))
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20171230/01.png"}}" width="1000" height="470" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20171230/01.png"}}">
 </figure>
 
 由於現行的測試自動化含量非常少  
@@ -145,7 +145,7 @@ navigate some of the challenges of making decisions with more people on board.
 最後, 附上一段最近看的一本書**測試架構師修煉之道**提到的  
 測試工程師在團隊中的定位  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20171230/03.jpg"}}" width="1000" height="500" alt="" >
+	<img src="{{ "/assets/img/maruIMG/20171230/03.jpg"}}">
 </figure>
 
 

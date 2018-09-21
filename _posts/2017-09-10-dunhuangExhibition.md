@@ -4,18 +4,17 @@ title:  "敦煌-風華再現特展"
 image: ''
 date: 2017-09-10 12:30
 tags:
-- exhibition
-- buddhism
+- Life
 description: ''
-categories:
-- LIFE
-serie: 
+categories: ''
+serie: ''
+cover: '/assets/img/maruIMG/0910/00.jpg'
 ---
 
 <br />
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/00.jpg"}}" width="800" height="580" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/00.jpg"}}" alt="" >
 </figure>
 
 造訪台中的自然科學博物館<br />
@@ -23,7 +22,7 @@ serie:
 先給結論：**這是我近期，不，應該說是近幾年看過最有內容也最用心的展覽**<br />
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/01.jpg"}}" width="250" height="330" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/01.jpg"}}">
 </figure>
 
 * 展覽中的每一項文物、皆為一比一的比例臨摹重現<br />
@@ -68,8 +67,8 @@ serie:
    國王、王后大家都很悲痛, 抱著薩朵王子的屍首悲傷不已, 最後將其遺骨供俸入塔。<br />
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/06.jpg"}}" width="700" height="450" alt="" >
-	<img src="{{ "/assets/img/maruIMG/0910/06-1.gif"}}" width="700" height="450" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/06.jpg"}}">
+	<img src="{{ "/assets/img/maruIMG/0910/06-1.gif"}}">
 </figure>
 
 有些人可能會覺得在科博館展佛學的東西好像很奇怪 <br />
@@ -84,25 +83,25 @@ serie:
 可以由人物的表情感受他們對生死的看法<br />
 由菩薩的神情感受到何謂**"寂滅為樂"**<br />
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/00.jpg"}}" width="600" height="450" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/00.jpg"}}">
 </figure>
 
 #### 重現藏經洞
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/02.jpg"}}" width="450" height="630" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/02.jpg"}}">
 </figure>
 
 #### 雕像製作步驟 (由右至左)
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/05.jpg"}}" width="700" height="450" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/05.jpg"}}">
 </figure>
 
 #### 千手千眼觀世音圖
 非常細膩的畫作(無論是手上的用品或是民生表現)<br />
 手之所以會呈現黑色是因為顏料褪色了<br />
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0910/03.jpg"}}" width="450" height="600" alt="" >
-	<img src="{{ "/assets/img/maruIMG/0910/04.jpg"}}" width="700" height="450" alt="" >
+	<img src="{{ "/assets/img/maruIMG/0910/03.jpg"}}">
+	<img src="{{ "/assets/img/maruIMG/0910/04.jpg"}}">
 </figure>
 ---
 

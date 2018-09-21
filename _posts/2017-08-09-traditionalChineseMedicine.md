@@ -4,16 +4,15 @@ title:  "跟著太爺學中醫"
 image: ''
 date: 2017-08-09 15:50
 tags:
-- read
-- book
+- Reading
 description: ''
-categories:
-- READ
-serie: 
+categories: ''
+serie: ''
+cover: '/assets/img/maruIMG/0809.jpg'
 ---
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/0809.jpg"}}" width="480" height="640" alt="">
+	<img src="{{ "/assets/img/maruIMG/0809.jpg"}}" alt="">
 </figure>
 
 

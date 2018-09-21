@@ -4,18 +4,15 @@ title:  "Scene Builder 的bug"
 image: ''
 date: 2017-04-03 23:05
 tags:
-- study
-- research
-- javafx
-- sceneBuilder
+- Study
+- Programming
 description: ''
-categories:
-- LEARN
-serie: learning
+categories: ''
+serie: ''
 ---
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/sbIssue.png"}}" width="1300" height="768" alt="再度看到正常畫面真是太開心了">
+	<img src="{{ "/assets/img/maruIMG/sbIssue.png"}}"  alt="再度看到正常畫面真是太開心了">
 </figure>
 
 今天碰到一個scene builder的問題<br />

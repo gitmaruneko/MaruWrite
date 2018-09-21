@@ -4,16 +4,15 @@ title:  "Agile Taipei - Mutation Testing"
 image: ''
 date: 2018-03-24 11:50
 tags:
-- mutation testing
-- Test
-- coverage
+- Testing
+- Agile
 description: ''
-categories:
-- LEARN
+categories: ''
 serie: 
+cover : '/assets/img/maruIMG/20180324/015.jpg'
 ---
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/015.jpg"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/015.jpg"}}">
 </figure>
 前兩周參加了Agile Taipei的三月聚會 - **變異測試 : 一種提高測試和代碼質量的新方法**  
 講師 **Joseph** 向大家介紹了 mutation testing 的精神並且給予程式碼範例練習,  
@@ -44,7 +43,7 @@ serie:
 
 #### 書中範例參考
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/013.jpg"}}" width="60%" height="60%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/013.jpg"}}">
 </figure>
 
 ## 覆蓋率迷思
@@ -77,45 +76,45 @@ Pitest是一款針對Java語言提供的Mutation測試工具, 提供多種mutato
 * 以一個判斷整數是否為0~100正整數的小程式來練習  
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/000.png"}}" width="30%" height="30%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/000.png"}}">
 </figure>
 
 　下圖為原本的測試案例  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/001.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/001.png"}}">
 </figure>
 
 　運行單元測試, 不僅全過, 而且覆蓋率也到達**100%**
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/003.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/003.png"}}">
 </figure>
 
 * 接著要運行 Pitest, 在運行之前先做點設定  
 	* 於pom.xml 加入plugin設定, 編譯時便會自動引用此套件
 	* targetClasses和targetTests設定需要作pitest的class名稱
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/004.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/004.png"}}>
 </figure>
 
 * 於maven專案視窗選擇 **pitest:mutationCoverage** 來運行pitest
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/006.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/006.png"}}">
 </figure>
 　當然, 也可經由command line直接運行,  
 　於command line輸入 : **mvn org.pitest:pitest-maven:mutationCoverage**
   <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/012.png"}}" width="60%" height="60%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/012.png"}}">
 </figure>
 
 * 運行結束後, 至target/pit-reports資料夾內查看結果
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/007.png"}}" width="20%" height="20%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/007.png"}}">
 </figure>
 
 * 經pitest評估後的狀況, mutation coverage未達100%
   表示仍有可以加強測試的部分
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/008.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/008.png"}}">
 </figure>
    
 　點進default連結, 可查閱做了哪些mutation  
@@ -124,27 +123,27 @@ Pitest是一款針對Java語言提供的Mutation測試工具, 提供多種mutato
 　* **<font color="green">綠</font>**色行數反之(顯示 KILLED 綠色)  
 　(點進原始碼頁面則可以看到有那些沒被覆蓋)  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/009.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/009.png"}}">
 </figure>
 
 * 現在找到了不夠有效的測試, 所以可以回過頭改動了!  
 檢查後發現, 101這個邊界值沒被檢查到, 增加這個測試案例  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/002.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/002.png"}}">
 </figure>
 
 　再運行一次 Pitest, 發現mutator都被殺死了, 測試案例有效性提升!
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/010.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/010.png"}}">
 </figure>
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/011.png"}}" width="40%" height="40%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/011.png"}}">
 </figure>
 
 #### 輪迴圖
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20180324/016.png"}}" width="50%" height="50%" alt="">
+	<img src="{{ "/assets/img/maruIMG/20180324/016.png"}}">
 </figure>
 
 
