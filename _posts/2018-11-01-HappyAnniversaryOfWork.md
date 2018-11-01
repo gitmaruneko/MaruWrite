@@ -3,7 +3,7 @@ layout: post
 title:  "工作周年快樂"
 image: ''
 date: 2018-11-01 10:50
-cover: '/assets/img/maruIMG/20181101/1.jpg'
+cover: ''
 tags:
 - Work
 description: ''
