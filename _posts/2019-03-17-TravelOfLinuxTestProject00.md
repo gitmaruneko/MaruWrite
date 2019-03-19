@@ -145,7 +145,7 @@ robotframework利用 **關鍵字** 來組裝
 下圖為運行測試過程中的CPU 以及 MEM利用率  
 可用來作為穩定性評估的參考資料  
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20190303/0317/07.jpg"}}">
+	<img src="{{ "/assets/img/maruIMG/20190303/0317/10.jpg"}}">
 </figure>
 
 
