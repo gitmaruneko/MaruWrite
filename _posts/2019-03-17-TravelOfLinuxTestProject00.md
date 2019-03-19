@@ -15,35 +15,30 @@ serie:
 ---
 
 
-<figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/20190303/0317/09.jpg"}}">
-</figure>
-
-
 # 使用目的
-最近在學習嵌入式系統的穩定性測試這塊,  
+最近在學習如何做嵌入式系統的穩定性測試,  
 一直都覺得嵌入式系統因其特有的即時性, 高可靠性等要求,  
 導致嵌入式系統的測試大不同於一般軟體測試,  
-這些特點也增加了嵌入式測試的複雜度以及難度, 與此同時也少有方便好用的測試工具  
+這些特點同時也增加了嵌入式測試的複雜度以及難度, 而且也少有方便好用的測試工具  
 
-想起在前公司開發Android產品時, 曾使用過LTP這個工具  
-(其實當時只是無聊, 想把kernel搞掛看看 XDD)
+想起在前公司開發Android產品時, 曾經玩過LTP這個自動化測試框架  
+(其實當時只是無聊, 想把kernel搞掛 XDD)
 沒想到正好拿來應用於手邊的產品  
 
-之所以選擇LTP當作穩定測試的工具  
+選擇LTP當作穩定測試的工具  
 除了因為其開源, 具有一定的公信力以外  
 它還具備一個靈活特性  
-它和robotframework一樣, 可以自由組裝想要運行的測試場景  
-robotframework利用關鍵字來組裝  
+和robotframework一樣, 可以自由設計並組裝測內容
+robotframework利用 **關鍵字** 來組裝  
 而在LTP內, **一個小單元的testcase就等於是robotframework的關鍵字**  
 甚至testsuite也是一個關鍵字  
-至少有以下特點 : 
+它至少有以下特點 : 
 
 * 易於組裝測試場景
 * 易於運行測試
-* 測試粒度大小非常多元
+* 測試粒度大小多元
 * 由於以上兩點, 也非常容易找出測試失敗點
-* 提供整合GDB, PERF...等工具
+* 提供整合GDB, PERF, CVE...等工具
 * 即使運行中途ctrl-c, 測試結果仍有完整記錄
 * ...等
 
@@ -53,7 +48,7 @@ robotframework利用關鍵字來組裝
 
 # 以RaspberryPi來練習LTP
 ## 取得LTP
-  * 首先至 [Linux Test Project](./doc/build-system-guide.txt)下載原始碼  
+  * 首先至 [Linux Test Project](https://github.com/linux-test-project/ltp)下載原始碼  
   ``` C
       $git clone https://github.com/linux-test-project/ltp.git
   ```
@@ -102,14 +97,14 @@ robotframework利用關鍵字來組裝
 	 $mount /mnt/sda1 /tmp/ltp
   ```
   
-* 進行測試的方式可以參考[Linux Test Project](./doc/build-system-guide.txt)的說明   
-  在此以進行IPC測試為例  
+* 進行測試的方式可以參考[Linux Test Project](https://github.com/linux-test-project/ltp)的說明   
+  在此以進行IPC(Inter-Process Communication)測試為例  
 
   ```C
      $./runltp -f ipc_customized
   ```
   
-* 如果是第一次進行測試, 工具會先建立測試過程需要用到的使用者帳戶及群組  
+* 如果是第一次進行測試, 工具會先建立測試過程所需要用到的使用者帳戶及群組  
   
 <figure class="foto-legenda">
 	<img src="{{ "/assets/img/maruIMG/20190303/0317/04_1.jpg"}}">
@@ -128,10 +123,11 @@ robotframework利用關鍵字來組裝
 	<img src="{{ "/assets/img/maruIMG/20190303/0317/05.jpg"}}">
 </figure>
 
-* 測試過程會建立兩個資料夾 **results** 以及 **output** 存放測試結果  
+* 測試過程會建立兩個資料夾 **results** 以及 **output** 來存放測試結果  
+  
   在**output**資料夾可以看到兩個副檔名分別為 **\*.fail**  以及  **\*.conf** 的檔案  
   顧名思義, 測試過程中的fail測項, 還有需要做進一步configure的測項  
-  會分別被記錄在兩個檔案中 (真的很貼心)
+  會分別被記錄在兩個檔案中 (真的很貼心), 提供使用者做下一次測試的參考
 
 <figure class="foto-legenda">
 	<img src="{{ "/assets/img/maruIMG/20190303/0317/06.jpg"}}">
@@ -146,6 +142,13 @@ robotframework利用關鍵字來組裝
 	<img src="{{ "/assets/img/maruIMG/20190303/0317/07.jpg"}}">
 </figure>
 
+下圖為運行測試過程中的CPU 以及 MEM利用率  
+可用來作為穩定性評估的參考資料  
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/maruIMG/20190303/0317/07.jpg"}}">
+</figure>
+
+
 最近跟LTP相處下來, 覺得最難之處在於測試後的分析  
 深入看測試內容後, 越發覺得OS學得不夠好  
 測試工作本身就是一門需要技術的學問, 其中包含了眾多理論與實踐,  
@@ -156,6 +159,11 @@ robotframework利用關鍵字來組裝
 由這些結果中得到回饋, 然後修正, 
 經由不知多少次的反覆 才能逐步讓測試發揮最大價值  
 
+
+
+## REF
+* [Linux Test Project](https://github.com/linux-test-project/ltp)
+* [LTP WIKI](https://github.com/linux-test-project/ltp/wiki)
 
  
 
