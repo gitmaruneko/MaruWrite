@@ -1,7 +1,7 @@
 # Site settings
-title: '慢步經心'
+title: '韌體灶腳'
 description: ''
-keyword: '笛蕙桂, 笛蕙桂murmur, 笛蕙桂的BLOG, 軟體, 軟體開發, 軟體工程, 軟體測試, 敏捷, Scrum'
+keyword: '笛蕙桂, 笛蕙桂murmur, 笛蕙桂的BLOG, 軟體, 韌體, 韌體研發, 軟體工程, 軟體測試, 嵌入式系統測試, 敏捷, Scrum'
 url: 'https://gitmaruneko.github.io/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -30,7 +30,7 @@ search: true
 # Night mode
 nightMode: false
 
-# Comments 评论功能
+# Comments 
 comments:
   disqus: true
   disqus_url: 'https://agilemaru.disqus.com/embed.js'
