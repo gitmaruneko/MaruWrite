@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IELTS Essay Practice- 00"
+title:  "IELTS Essay Practice - 00"
 image: ''
 date: 2020-02-04 10:50
 cover: ''
