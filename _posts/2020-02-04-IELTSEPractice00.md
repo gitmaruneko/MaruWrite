@@ -35,7 +35,7 @@ serie:
 綠色字體為Stephan的訂正內容, 整體給了很高的評價. 算是個不錯的開始
 
 <figure class="foto-legenda">
-	<img src="{{ "/assets/img/maruIMG/2020/0204.jpg"}}">
+	<img src="{{ "/assets/img/maruIMG/2020/essay.jpg"}}">
 </figure>
 
 
