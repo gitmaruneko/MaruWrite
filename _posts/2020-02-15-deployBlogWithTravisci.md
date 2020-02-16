@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "以Travis CI建置並部屬部落格"
+title:  "以Travis CI建置並部署部落格"
 image: '/assets/img/maruIMG/2020/0215/07.png'
 date: 2020-02-15 10:50
 cover: '/assets/img/maruIMG/2020/0215/07.png'
@@ -31,7 +31,7 @@ serie:
 * 需先建立一個和blog repo分開的 repository  
 * 設定**[Travis CI](https://travis-ci.org/)**  
 * 提交寫完的部落格內容後, 便會觸發Travis CI建置  
-* 如果build pass便會自動部屬到blog repo  
+* 如果build pass便會自動部署到blog repo  
 
 <figure class="foto-legenda">
 	<img src="{{ "/assets/img/maruIMG/2020/0215/00.jpg"}}">
