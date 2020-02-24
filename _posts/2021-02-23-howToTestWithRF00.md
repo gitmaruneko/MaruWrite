@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Robotframework七天略懂略懂之框架介紹- 00"
+title:  "初探Robotframework之框架介紹 - 00"
 image: ''
 date: 2020-02-17 10:50
 cover: '/assets/img/maruIMG/2020/0223_rf/rf01.png'
