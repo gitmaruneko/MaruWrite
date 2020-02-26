@@ -28,22 +28,6 @@ serie:
 	<img src="{{"/assets/img/maruIMG/2020/0226_rf/07.png"}}">
 </figure>
 
-由於這個測試案例會用到web dirver,  
-我們先點選專案**Test** > 點選 **Edit** tab > 點選 **Library**  
-輸入
-```
-    selenium2library  
-```
-<figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/2020/0226_rf/11.jpg"}}">
-</figure>
-
-導入成功後就會出現在library欄位囉  
-(如果出現紅字或導入不成功, 請記得回去[安裝篇](https://gitmaruneko.github.io/2020/02/17/howToTestWithRF01.html)檢查有沒有成功安裝selenium2library)
-<figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/2020/0226_rf/12.jpg"}}">
-</figure>
-
 ### 建立測試案例
 測試專案建立後, 請滑鼠右鍵點選專案名稱**Test**  > **New Test Case**
 依照慣例就先從hello world開始吧! 哈!
@@ -57,8 +41,8 @@ serie:
 
 ### 撰寫測試案例
 點選測試案例**print_helloworld**  
-在第一列第一個欄位寫上 **log**
-第二個欄位則寫上**helloworld** 或任何你想輸出的訊息
+在第一列第一個欄位寫上 **log**  
+第二個欄位則寫上**helloworld** 或任何你想輸出的訊息  
 寫好後記得存檔  
 
 <figure class="foto-legenda">
@@ -83,7 +67,7 @@ Robot Framework將執行後的文字結果以HTML格式呈現
 給予使用者非常強烈的視覺衝擊, 有很好的警示效果
 點擊**All Tests**可以看到運行的所有測試  
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/2020/0226_rf/15.jpg"}}">
+	<img src="{{"/assets/img/maruIMG/2020/0226_rf/16.jpg"}}">
 </figure>
 
 而點選**log.html**或者右上方的**LOG**  
