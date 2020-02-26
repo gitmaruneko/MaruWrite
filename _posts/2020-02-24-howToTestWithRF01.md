@@ -2,7 +2,7 @@
 layout: post
 title:  "初探Robot Framework之安裝教學 - 01"
 image: ''
-date: 2020-02-17 10:50
+date: 2020-02-24 10:50
 cover: '/assets/img/maruIMG/2020/0223_rf/rf01.png'
 tags:
 - test

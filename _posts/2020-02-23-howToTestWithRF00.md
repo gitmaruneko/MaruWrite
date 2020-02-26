@@ -2,7 +2,7 @@
 layout: post
 title:  "初探Robot Framework之框架介紹 - 00"
 image: ''
-date: 2020-02-17 10:50
+date: 2020-02-23 10:50
 cover: '/assets/img/maruIMG/2020/0223_rf/rf01.png'
 tags:
 - test
