@@ -2,7 +2,7 @@
 layout: post
 title:  "初探Robot Framework之小試身手 - 03"
 image: ''
-date: 2020-02-17 10:50
+date: 2020-02-28 23:50
 cover: '/assets/img/maruIMG/2020/0223_rf/rf01.png'
 tags:
 - test
