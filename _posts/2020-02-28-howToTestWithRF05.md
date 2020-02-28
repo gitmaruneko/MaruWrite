@@ -16,6 +16,8 @@ serie:
 
 
 
+
+
 ## 準備工作
 
 本教學由安裝Robot Framework套件開始  
@@ -56,7 +58,7 @@ serie:
     test_robot
 ```
 <figure class="foto-legenda">
-	<img src="{{"/assets/img/maruIMG/2020/0228_rf/install/03.jpg"}}">
+	<img src="{{"/assets/img/maruIMG/2020/0228_rf/c00.jpg"}}">
 </figure>
 
 ### 設定任務內容
